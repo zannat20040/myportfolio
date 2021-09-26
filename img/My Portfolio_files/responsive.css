@@ -1,0 +1,14 @@
+@media (max-width:1000px) {
+    .hidden-menu a{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .full-width .side-bar {
+        visibility: hidden;
+        opacity: 0;
+    }
+    .body {
+        margin-left: 0;
+    }
+}

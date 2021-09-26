@@ -1,0 +1,32 @@
+let typingText=document.getElementById("typing-text");
+
+let typingEffect1=' Front-End Designer';
+let typingEffect2='Freelancer';
+
+var j=0;i=19;
+
+function typingFunction(){
+        if(j<typingEffect1.length && i==typingEffect1.length){
+            typingText.innerHTML+=typingEffect1.charAt(j);
+             j++;
+             setTimeout(typingFunction, 400);
+            //  for(j=19; j>=0;j--){
+            //     typingText.innerHTML+=typingEffect1.charAt(j);
+            //     setTimeout(typingFunction, 400);
+            //  }
+         }
+        // else if(j<typingEffect2.length && i==typingEffect2.length){
+        //     typingText.innerHTML+=typingEffect2.charAt(j);
+        //      j++;
+        //      setTimeout(typingFunction, 400);
+        //  }
+        
+    }
+typingFunction();
+
+
+
+function showMenu(){
+    document.getElementById("side-bar").style.width="250px"
+}
+showMenu();
