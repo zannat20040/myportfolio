@@ -1,6 +1,6 @@
 let typingText=document.getElementById("typing-text");
 
-let typingEffect1=' Bangla';
+let typingEffect1=' Front-End Develeoper';
 // let typingEffect2='English';
 
 var j=0;
