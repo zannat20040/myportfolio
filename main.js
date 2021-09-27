@@ -28,6 +28,8 @@ function showMenu() {
     }
 }
 
+showMenu();
+
 // -------------
 // function displaymenu(){
 //         document.getElementById("sidebar").style.width = "0";
