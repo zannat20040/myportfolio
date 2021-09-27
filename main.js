@@ -29,6 +29,12 @@ function showMenu() {
 }
 
 // -------------
+
+function displaymenu(){
+        document.getElementById("sidebar").style.width = "0";
+}
+displaymenu();
+
 // let allpro = document.getElementsByClassName("allwebproject");
 //         function allProject() {
 //             allpro.style.display = "block";
