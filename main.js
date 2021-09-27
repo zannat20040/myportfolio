@@ -36,19 +36,3 @@ function showMenu() {
 //         allProject();
 
 
-// -----------------------------------------
-
-let item=document.querySelector(".project").children;
-let pre=document.querySelector(".pre");
-let pre=document.querySelector(".page");
-let next=document.querySelector(".next");
-let maxitem=6;
-let index=1,i;
-
-function pagination(){
-    for (i=0;i<item.length;i++){
-        item[i].classList.add("hide");
-    }
-}
-
-pagination();
